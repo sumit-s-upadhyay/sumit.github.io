@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Sign Up</title>
+      <style>
+          body{
+          margin-top: 75px;
+          background:#3b58a0;
+
+          }
+
+          * {box-sizing: border-box;}
+
+          .signup{
+            border-radius: 15px;
+            padding: 25px;
+            background-color: white;
+          }
+
+          .signin{
+            border-radius: 15px;
+            padding: 25px;
+            background-color:#f7f0ef;
+          }
+          .container{
+            width: 55%;
+            margin: auto;
+          }
+          .button{
+            background-color: #44474c;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor:pointer;
+
+          }
+          input[type=text], input[type=password], input[type=number], input[type=date] {
+            width: 100%;
+            padding: 15px;
+           margin: 5px 0 22px 0;
+           display: inline-block;
+            border: none;
+            border-radius: 15px;
+            background: #f1f1f1;
+          }
+
+          input[type=submit], input[type=reset]{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            border-radius: 15px;
+            cursor: pointer;
+          }
+      </style>
+</head>
+  <body>
+    <form action="signin.html">
+      <div id="abc" class="container">
+        <div class='signup'>
+          
+           <h2>Sign Up</h2>
+           <p>Please fill in this form to create an account.</p>
+        	 <hr>
+
+          
+           <label for='fname'><b>First name:</b></label>
+           <input type="text" name="firstname"><br>
+         
+           <label for='lname'><b>Last name:</b></label>
+           <input type="text" name="lastname"><br>
+
+           <label for='dob'><b>Date Of Birth</b></label>
+           <input type="date" placeholder="Date" name="dateofbirth"><br>
+
+           <label class='gender'><b>Gender</b></label><br>
+           <input type="radio" name="gender" value="male"><b> Male</b><br>
+           <input type="radio" name="gender" value="female"> <b>Female</b><br><br>
+
+          
+           <label for="email"><b>Email</b></label>
+           <input type="text" placeholder="Enter Email" name="email" required><br>
+
+            <label for='contact'><b>Contact No.</b></label>
+            <input type="number" placeholder='Enter Contact No' name="contact"><br>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw"><br>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" ><br>
+
+            <input  type="submit" value="Submit" >
+            <input  type="reset" value="Reset" >
+
+            <p><h3><b>Already have an account?</b></h3><a href="signin.html" class="button">Sign In</a></p>
+        </div>
+      </div>  
+    </form> 
+  </body>
+</html>
