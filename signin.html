@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Sign In</title>
+      <style>
+          body{
+            margin-top: 75px;
+		        background-image: url(https://cdn.lynda.com/course/110279/110279-637199534636788822-16x9.jpg);
+
+          }
+
+          * {box-sizing: border-box;}
+
+          .signup{
+            border-radius: 15px;
+            padding: 10%;
+            background-color: white;
+            opacity: 0.90;
+          }
+
+          .signin{
+            border-radius: 15px;
+            padding: 10%;
+            background-color:white;
+            opacity: 0.90;
+          }
+          .container{
+            width: 50%;
+            margin: auto;
+            
+          }
+          .button{
+            background-color: #44474c;
+            border: none;
+            border-radius: 15px;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor:pointer;
+
+          }
+          input[type=text], input[type=password], input[type=number], input[type=date] 
+          {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 15px;
+            background: #f1f1f1;
+          }
+
+          .button1{
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            border-radius: 15px;
+            cursor: pointer;
+
+          }
+      </style>
+</head>
+  <body>
+    <form>
+      <div class="container">
+        <div class='signin'>
+          <h1><center>  Freelancer Pro</center></h1>
+           <h2>Sign In</h2>
+        	 <hr>
+           <label for='email'><b>User Id</b></label>
+           <input type="text" placeholder="Enter Email" name="email"><br>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw"><br>
+
+            <input class="button" type="Submit" value="Login" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <a href="forgotpass.html"><b> Forgot Password?</b></a>
+            <hr>
+            <p><h3><b>Create An Account</b></h3><a href="signup.html" class="button">Sign Up</a></p>
+        </div>
+      </div>  
+    </form> 
+  </body>
+</html>
